@@ -16,6 +16,16 @@ MAMIC aims to:
 
 ●	Run on a wide variety of computers, including on the older and budget-orientated hardware found in many schools, without requiring permanent installation.
 
+THe MAMIC topology model below gives an insight into how the MAMIC abtractions are ordered 
+
+![image](https://user-images.githubusercontent.com/10425370/124646844-15a7b700-de8d-11eb-8e79-64df91a99b0f.png)
+
+
+
+
+
+
+
 <h2>How to Use this MAMIC Library</h2>
 
 Firstly, you will need the Pd-L2Ork (as stated above). you can get Pd-L2Ork here https://github.com/pd-l2ork/pd
