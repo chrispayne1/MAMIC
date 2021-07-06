@@ -1,5 +1,5 @@
 # MAMIC
-Hello and welcome one and all !
+Hello and welcome to the MAMIC Git
 
 
 MAMIC is a collation of library abstractions and thus a visual programming library for the Pd-L2Ork IDE, specifically designed to give primary school students the chance to create music through maths and visual programming. 
