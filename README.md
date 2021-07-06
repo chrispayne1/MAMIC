@@ -28,11 +28,11 @@ THe MAMIC topology model below gives an insight into how the MAMIC abtractions a
 
 <h2>How to Use this MAMIC Library</h2>
 
-Firstly, you will need the Pd-L2Ork (as stated above). you can get Pd-L2Ork here https://github.com/pd-l2ork/pd
+Firstly, I recommend you work with MAMIC on Ubuntu-Studio and install the Pd-L2Ork IDE through the ppa here https://launchpad.net/~dr-graef/+archive/ubuntu/pd-l2ork.trusty
 
 Next take the contents of this Git MAMICLibrary and navigate to this folder in Pd-L2Ork as a library path. 
 
-Please then feel free start using the MAMIC abstractions. The main_abtractions.txt gives an overview of the main MAMIC abstractions to try.
+Please then feel free start using the MAMIC abstractions.
 
 Please feel free to add to this project and contribute :) 
 
