@@ -14,4 +14,10 @@ MAMIC aims to:
 
 ●	Facilitate and support in-the-wild delivery by non-subject-specialists.
 
-●	Run on a wide variety of computers, including on the older and budget-orientated hardware found in many schools, without requiring permanent installation. 
+●	Run on a wide variety of computers, including on the older and budget-orientated hardware found in many schools, without requiring permanent installation.
+
+How to Use this MAMIC Library
+
+FIrstly, you will need the Pd-L2Ork (as stated above). you can get Pd-L2Ork here https://github.com/pd-l2ork/pd
+
+
