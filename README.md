@@ -35,20 +35,25 @@ To build the MAMIC System on Ubuntu Studio 16.04
 Install Synaptic Package Manager
 
 sudo apt-get update
+
 sudo apt-get install synaptic
 
 Then install the Pd-L2Ork IDE
 
 sudo add-apt-repository ppa:dr-graef/pd-l2ork.xenial
+
 sudo apt-get update
 
 sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
+
 sudo apt-get update
 
 Install Pd-L2Ork IDE and the other packages below with Synaptic Package Manager
 
 Pd-L20rk
+
 VLC Player
+
 Simple Screen Recorder
 
 Next take the contents of this Git MAMICLibrary and navigate to this folder in Pd-L2Ork as a library path. 
