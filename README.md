@@ -30,7 +30,7 @@ THe MAMIC topology model below gives an insight into how the MAMIC abtractions a
 
 Firstly, I recommend you work with MAMIC on Ubuntu-Studio 16.04 and install the Pd-L2Ork IDE through these terminal commands:
 
-TO build the MAMIC System on Ubuntu Studio 16.04
+To build the MAMIC System on Ubuntu Studio 16.04
 
 Install Synaptic Package Manager
 
