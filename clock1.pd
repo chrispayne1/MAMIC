@@ -1,0 +1,255 @@
+#N struct 1471-radial-template float c float w float x float y float
+xx float yy;
+#N struct 1474-radial-template float c float w float x float y float
+xx float yy;
+#N struct 1477-radial-template float c float w float x float y float
+xx float yy;
+#N canvas 0 25 1366 694 10;
+#X obj -254 47 metro 1000;
+#X obj -253 24 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X msg -222 26 stop;
+#X obj -91 362 s balwyn-clock-seconds;
+#X obj -94 429 s balwyn-clock-seconds-size;
+#X obj -92 500 s balwyn-clock-seconds-width;
+#X obj -85 578 s balwyn-clock-seconds-colour;
+#X msg -254 77 bang;
+#X obj -254 106 time;
+#X msg -94 403 200;
+#X msg -86 553 900;
+#X obj -287 362 s balwyn-clock-minutes;
+#X obj -288 431 s balwyn-clock-minutes-size;
+#X obj -285 503 s balwyn-clock-minutes-width;
+#X obj -278 580 s balwyn-clock-minutes-colour;
+#X obj -488 494 s balwyn-clock-hours-width;
+#X obj -481 572 s balwyn-clock-hours-colour;
+#X msg -288 405 180;
+#X obj -489 424 s balwyn-clock-hours-size;
+#X msg -490 397 120;
+#X obj -252 -5 loadbang;
+#X obj -136 5 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 438 19 bng 406 250 50 0 empty empty empty 17 7 0 10 -4160 -99865
+-1;
+#X obj 632 226 minute-hand;
+#X obj 616 27 cnv 15 50 36 empty empty 12 2 18 0 36 -4160 -262144 0
+;
+#X obj 618 383 cnv 15 50 36 empty empty 6 14 18 0 36 -4160 -262144
+0;
+#X obj 442 207 cnv 15 50 36 empty empty 9 14 18 0 36 -4160 -262144
+0;
+#X obj 792 206 cnv 15 50 36 empty empty 3 14 18 0 36 -4160 -262144
+0;
+#X obj 764 123 cnv 15 50 36 empty empty 2 14 18 0 36 -4160 -262144
+0;
+#X obj 710 58 cnv 15 50 36 empty empty 1 14 18 0 36 -4160 -262144 0
+;
+#X obj 526 58 cnv 15 50 36 empty empty 11 2 18 0 36 -4160 -262144 0
+;
+#X obj 469 123 cnv 15 50 36 empty empty 10 2 18 0 36 -4160 -262144
+0;
+#X obj 763 290 cnv 15 50 36 empty empty 4 14 18 0 36 -4160 -262144
+0;
+#X obj 707 353 cnv 15 50 36 empty empty 5 14 18 0 36 -4160 -262144
+0;
+#X obj 532 355 cnv 15 50 36 empty empty 7 14 18 0 36 -4160 -262144
+0;
+#X obj 468 291 cnv 15 50 36 empty empty 8 14 18 0 36 -4160 -262144
+0;
+#X msg -96 468 1;
+#X msg -289 471 5;
+#X msg -492 464 8;
+#X msg -278 550 696;
+#X msg -479 539 696;
+#X floatatom -487 326 5 0 0 0 - - -, f 5;
+#X floatatom -285 339 5 0 0 0 - - -, f 5;
+#X floatatom -94 330 5 0 0 0 - - -, f 5;
+#X obj -333 127 mod 12;
+#X obj 633 222 second-hand;
+#X msg -472 73 1;
+#X obj 633 225 hour-hand;
+#X floatatom 435 520 5 1 12 1 Hours balwyn-clock-hours #0-edithours
+, f 5;
+#X floatatom 631 522 5 0 59 1 Minutes balwyn-clock-minutes #0-editmins
+, f 5;
+#X floatatom 817 521 5 0 59 0 Seconds balwyn-clock-seconds #0-editseconds
+, f 5;
+#X obj -136 26 s \$0-lb;
+#X obj -489 372 r \$0-lb;
+#X obj -490 441 r \$0-lb;
+#X obj -481 516 r \$0-lb;
+#X obj -285 383 r \$0-lb;
+#X obj -294 447 r \$0-lb;
+#X obj -279 528 r \$0-lb;
+#X obj -94 380 r \$0-lb;
+#X obj -98 446 r \$0-lb;
+#X obj -87 530 r \$0-lb;
+#X obj -487 351 s balwyn-clock-hours;
+#X obj -486 300 switch 2;
+#X obj -285 281 switch 2;
+#X obj -90 265 switch 2;
+#X obj -470 24 r \$0-lb;
+#X msg -439 73 2;
+#X obj -488 655 outlet hours;
+#X obj -272 666 outlet minutes;
+#X obj -59 662 outlet seconds;
+#X floatatom 447 38 3 0 16 2 Seq #0-m1seq1num #0-seqnumber, f 3;
+#X obj 734 440 hradio 55 1 0 2 \$0-timesetting \$0-timesettingr Real\ Time\ Edit\ Time
+0 -8 0 10 -262144 -1 -1 0;
+#X obj -495 -13 r \$0-timesetting;
+#X obj -490 113 + 1;
+#X obj -441 240 r \$0-edithours;
+#X obj -236 212 r \$0-editmins;
+#X obj -45 180 r \$0-editseconds;
+#X obj -441 266 t f f;
+#X obj -422 304 f;
+#X obj -236 247 t f f;
+#X obj -218 281 f;
+#X obj -44 211 t f f;
+#X obj -26 265 f;
+#X obj -43 99 r \$0-seqnumber;
+#X obj -58 124 sel;
+#X obj -57 58 inlet;
+#X obj -493 606 change;
+#X obj -277 623 change;
+#X obj -102 622 change;
+#X obj 438 426 bng 52 250 50 0 \$0-quaterpast empty 1/4\ past 3 25
+0 10 -257985 -1 -1;
+#X obj 490 426 bng 52 250 50 0 \$0-halfpast empty 1/2\ past 3 25 0
+10 -257985 -1 -1;
+#X obj 542 426 bng 52 250 50 0 \$0-quaterto empty 1/4\ to 10 25 0 10
+-257985 -1 -1;
+#X obj 179 108 r \$0-quaterpast;
+#X obj 94 46 r \$0-halfpast;
+#X obj 155 225 r \$0-quaterto;
+#X obj 179 136 t b b;
+#X msg 174 165 15;
+#X obj 153 254 t b b;
+#X msg 148 283 45;
+#X obj 124 72 t b b;
+#X msg 123 91 30;
+#X obj 594 426 bng 52 250 50 0 \$0-oclock empty O'clock 6 25 0 10 -257985
+-1 -1;
+#X obj 220 392 r \$0-oclock;
+#X obj 277 492 f;
+#X msg 203 462 0;
+#X obj 218 422 t b b b;
+#X msg 227 460 0;
+#N canvas 102 62 628 451 statesave 0;
+#X obj 210 -21 r \$0-edithours;
+#X obj 88 32 s balwyn-clock-hours;
+#X text 260 13 hrs;
+#X obj 88 7 sssad \$1/hrs;
+#X obj 90 113 sssad \$1/hrs;
+#X obj 212 85 r \$0-editmins;
+#X obj 90 138 s balwyn-clock-minutes;
+#X text 262 119 mins;
+#X obj 90 221 sssad \$1/hrs;
+#X obj 212 193 r \$0-editseconds;
+#X obj 90 246 s balwyn-clock-seconds;
+#X text 262 227 seconds;
+#X obj 109 311 sssad \$1/hrs;
+#X obj 231 283 r \$0-timesetting;
+#X obj 108 336 s \$0-timesettingr;
+#X text 281 317 real time edit tiome;
+#X connect 0 0 3 1;
+#X connect 3 0 1 0;
+#X connect 4 0 6 0;
+#X connect 5 0 4 1;
+#X connect 8 0 10 0;
+#X connect 9 0 8 1;
+#X connect 12 0 14 0;
+#X connect 13 0 12 1;
+#X restore 120 618 pd statesave;
+#X obj 237 37 s \$0-timesettingr;
+#X msg 133 10 0;
+#X connect 0 0 7 0;
+#X connect 1 0 0 0;
+#X connect 2 0 0 0;
+#X connect 7 0 8 0;
+#X connect 8 0 44 0;
+#X connect 8 1 63 1;
+#X connect 8 2 64 1;
+#X connect 9 0 4 0;
+#X connect 10 0 6 0;
+#X connect 17 0 12 0;
+#X connect 19 0 18 0;
+#X connect 20 0 1 0;
+#X connect 20 0 51 0;
+#X connect 20 0 46 0;
+#X connect 20 0 109 0;
+#X connect 21 0 51 0;
+#X connect 36 0 5 0;
+#X connect 37 0 13 0;
+#X connect 38 0 15 0;
+#X connect 39 0 14 0;
+#X connect 40 0 16 0;
+#X connect 41 0 61 0;
+#X connect 41 0 86 0;
+#X connect 41 0 103 1;
+#X connect 42 0 11 0;
+#X connect 42 0 87 0;
+#X connect 43 0 3 0;
+#X connect 43 0 88 0;
+#X connect 44 0 62 1;
+#X connect 46 0 62 0;
+#X connect 46 0 63 0;
+#X connect 46 0 64 0;
+#X connect 52 0 19 0;
+#X connect 53 0 38 0;
+#X connect 54 0 40 0;
+#X connect 55 0 17 0;
+#X connect 56 0 37 0;
+#X connect 57 0 39 0;
+#X connect 58 0 9 0;
+#X connect 59 0 36 0;
+#X connect 60 0 10 0;
+#X connect 62 0 41 0;
+#X connect 63 0 42 0;
+#X connect 64 0 43 0;
+#X connect 65 0 46 0;
+#X connect 66 0 62 0;
+#X connect 66 0 63 0;
+#X connect 66 0 64 0;
+#X connect 72 0 73 0;
+#X connect 73 0 62 0;
+#X connect 73 0 63 0;
+#X connect 73 0 64 0;
+#X connect 74 0 77 0;
+#X connect 75 0 79 0;
+#X connect 76 0 81 0;
+#X connect 77 0 78 1;
+#X connect 77 1 62 2;
+#X connect 78 0 67 0;
+#X connect 79 0 80 1;
+#X connect 79 1 63 2;
+#X connect 80 0 68 0;
+#X connect 81 0 82 1;
+#X connect 81 1 64 2;
+#X connect 82 0 69 0;
+#X connect 83 0 84 1;
+#X connect 84 0 78 0;
+#X connect 84 0 80 0;
+#X connect 84 0 82 0;
+#X connect 85 0 84 0;
+#X connect 86 0 67 0;
+#X connect 87 0 68 0;
+#X connect 88 0 69 0;
+#X connect 92 0 95 0;
+#X connect 93 0 99 0;
+#X connect 94 0 97 0;
+#X connect 95 0 96 0;
+#X connect 96 0 42 0;
+#X connect 97 0 98 0;
+#X connect 98 0 42 0;
+#X connect 99 0 100 0;
+#X connect 100 0 42 0;
+#X connect 102 0 105 0;
+#X connect 103 0 41 0;
+#X connect 104 0 42 0;
+#X connect 105 0 104 0;
+#X connect 105 1 106 0;
+#X connect 105 2 103 0;
+#X connect 106 0 43 0;
+#X connect 109 0 108 0;
+#X coords 0 -1 1 1 419 522 1 430 17;

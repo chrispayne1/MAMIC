@@ -1,0 +1,62 @@
+#N canvas 0 37 1366 695 10;
+#X text 43 186 Quick Start;
+#X text 120 -6 C O M P K O B J E C T;
+#X text 42 12 The [comk] object lets you use your comuter keyboard
+as a musical instrument. The keys ASDFGHJK can each be assigned audio
+samples (audio files). THese audio files must be in either WAV or AIF
+formats. Each key also has its own volume control. [compk] comes pre
+loaded with a sample drum kit. Which is spanned over the following
+keys ASDF. This is active when [compk] is loaded.;
+#X text 43 255 2 Click on the keyboard image on [compk] to reveal it's
+conrol panel;
+#X text 43 297 3 Make sure the volumes are turned up on the keys required
+(to play to drum kit example turn up the volume lvels for keys ASDF).
+;
+#X text 42 351 4 Turn up the master volume in [soundsout];
+#X text 43 212 1 Open [compk] and [soundsout] and connect the audio
+output of [compk] to the audio input of [soundsout];
+#X text 41 379 5 Click the toggle swtich in [compk] On. THis will set
+the computer keybaord active for playing. Press a key and you should
+now hear the drum kit samples - Kick \, Snare \, Hghhat and Crash.
+;
+#X text 43 120 IMPORTANT because [compk] uses audio files/samples [soundsout]
+must be used \, so the sounds can be heard.;
+#X text 452 59 EXAMPLE below[compk] has the pre-loadd drum kit loaded
+onto the keys ASDF.[compk] is plugged into [soundsout] so when the
+keys ASDF are played the samples are triggered which are assigned to
+each key.;
+#N canvas 0 73 1366 695 engine 0;
+#X text 685 33 load;
+#X obj 718 258 textfile;
+#X obj 718 288 s SSSAD;
+#X obj 718 200 until;
+#X msg 718 179 100;
+#X msg 662 241 print;
+#X text 713 310 also received inside sssad;
+#X obj 786 285 s SSSAD_ADMIN;
+#X msg 786 260 set;
+#X obj 718 156 t b a;
+#X msg 765 201 read \$1 \, rewind;
+#X text 750 179 Avoid loops. A bang normally also works.;
+#X obj 718 133 symbol;
+#X text 672 335 Hint: get creative with the [OSCroute] external!;
+#X obj 730 47 loadbang;
+#X msg 718 82 /home/ubuntu-studio/MAMIClibrary/helpsettings/compkhelp.txt
+;
+#X connect 1 0 2 0;
+#X connect 1 1 3 1;
+#X connect 1 1 8 0;
+#X connect 3 0 1 0;
+#X connect 4 0 3 0;
+#X connect 5 0 1 0;
+#X connect 8 0 7 0;
+#X connect 9 0 4 0;
+#X connect 9 1 10 0;
+#X connect 10 0 1 0;
+#X connect 12 0 9 0;
+#X connect 14 0 15 0;
+#X connect 15 0 12 0;
+#X restore 1215 643 pd engine;
+#X obj 466 203 compk 1help;
+#X obj 467 333 soundsout 1helpcompk;
+#X connect 11 0 12 0;

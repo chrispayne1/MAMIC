@@ -1,0 +1,153 @@
+#N canvas 0 25 1366 695 10;
+#X obj -22 -46 cnv 15 300 160 empty empty Demo\ Songs 72 12 0 14 -231936
+-66577 0;
+#X obj -16 -16 bng 20 250 50 0 twinkle empty Twinkle\ Twinkle\ Little\ Star
+25 10 0 10 -262144 -1 -1;
+#X obj 646 40 image mamic.png 0;
+#X obj 1031 -48 cnv 15 300 160 empty empty Object\ Help\ Examples 72
+12 0 14 -231936 -66577 0;
+#X obj 1037 -18 bng 20 250 50 0 conductorhelp empty Conductor 25 10
+0 10 -262144 -1 -1;
+#X obj 1037 2 bng 20 250 50 0 compkhelp empty Compk 25 10 0 10 -262144
+-1 -1;
+#X obj 1037 22 bng 20 250 50 0 xboxpadhelp empty Xboxpad 25 10 0 10
+-262144 -1 -1;
+#N canvas 0 25 1366 695 engine 0;
+#X text 33 94 close;
+#X text 34 10 open;
+#X msg 34 115 \; pd pd-your_abs.pd menuclose \;;
+#X text 946 -75 load;
+#X obj 979 150 textfile;
+#X obj 979 180 s SSSAD;
+#X obj 979 92 until;
+#X msg 979 71 100;
+#X msg 923 133 print;
+#X text 974 202 also received inside sssad;
+#X obj 1047 177 s SSSAD_ADMIN;
+#X msg 1047 152 set;
+#X obj 979 48 t b a;
+#X msg 1026 93 read \$1 \, rewind;
+#X text 1011 71 Avoid loops. A bang normally also works.;
+#X obj 979 25 symbol;
+#X text 933 227 Hint: get creative with the [OSCroute] external!;
+#X obj 980 -52 loadbang;
+#X obj 32 -7 r twinkle;
+#X msg 32 30 \; pd open twinkletwinkle.pd /home/ubuntu-studio/MAMIClibrary/demosongs
+\;;
+#X text 330 -22 Demosongs;
+#X text 233 216 Help file loads;
+#X text 32 255 open;
+#X obj 31 238 r conductorhelp;
+#X msg 30 275 \; pd open conductor-help.pd /home/ubuntu-studio/MAMIClibrary
+\;;
+#X text 33 354 open;
+#X obj 32 337 r compkhelp;
+#X msg 31 374 \; pd open compk-help.pd /home/ubuntu-studio/MAMIClibrary
+\;;
+#X text 32 443 open;
+#X obj 31 426 r xboxpadhelp;
+#X msg 30 463 \; pd open xboxpad-help.pd /home/ubuntu-studio/MAMIClibrary
+\;;
+#X text 30 533 open;
+#X obj 29 516 r webcamhelp;
+#X msg 28 553 \; pd open webcam-help.pd /home/ubuntu-studio/MAMIClibrary
+\;;
+#X text 29 622 open;
+#X obj 28 605 r majorscalehelp;
+#X msg 27 642 \; pd open majorscale-help.pd /home/ubuntu-studio/MAMIClibrary
+\;;
+#X text 400 254 open;
+#X obj 399 237 r midikeyboardhelp;
+#X msg 398 274 \; pd open midikeyboard-help.pd /home/ubuntu-studio/MAMIClibrary
+\;;
+#X text 400 356 open;
+#X obj 399 339 r makechordhelp;
+#X msg 398 376 \; pd open makechord-help.pd /home/ubuntu-studio/MAMIClibrary
+\;;
+#X text 398 442 open;
+#X obj 397 425 r soundsouthelp;
+#X msg 396 462 \; pd open soundsout-help.pd /home/ubuntu-studio/MAMIClibrary
+\;;
+#X text 397 529 open;
+#X obj 396 512 r voicesouthelp;
+#X msg 395 549 \; pd open voicesout-help.pd /home/ubuntu-studio/MAMIClibrary
+\;;
+#X text 397 621 open;
+#X obj 396 604 r recordhelp;
+#X msg 395 641 \; pd open record-help.pd /home/ubuntu-studio/MAMIClibrary
+\;;
+#X text 395 706 open;
+#X obj 394 689 r presetsavehelp;
+#X msg 393 726 \; pd open presetsave-help.pd /home/ubuntu-studio/MAMIClibrary
+\;;
+#X msg 979 -26 /home/ubuntu-studio/MAMIClibrary/demosongs/dashboarddemo.txt
+;
+#X connect 4 0 5 0;
+#X connect 4 1 6 1;
+#X connect 4 1 11 0;
+#X connect 6 0 4 0;
+#X connect 7 0 6 0;
+#X connect 8 0 4 0;
+#X connect 11 0 10 0;
+#X connect 12 0 7 0;
+#X connect 12 1 13 0;
+#X connect 13 0 4 0;
+#X connect 15 0 12 0;
+#X connect 17 0 55 0;
+#X connect 18 0 19 0;
+#X connect 23 0 24 0;
+#X connect 26 0 27 0;
+#X connect 29 0 30 0;
+#X connect 32 0 33 0;
+#X connect 35 0 36 0;
+#X connect 38 0 39 0;
+#X connect 41 0 42 0;
+#X connect 44 0 45 0;
+#X connect 47 0 48 0;
+#X connect 50 0 51 0;
+#X connect 53 0 54 0;
+#X connect 55 0 15 0;
+#X restore -27 619 pd engine;
+#X obj 1032 482 cnv 15 300 160 empty empty Lesson\ Examples 72 12 0
+14 -231936 -66577 0;
+#X obj 1038 512 bng 20 250 50 0 \$0-xboxsamplerdemo empty What\ is\ pitch?
+25 10 0 10 -262144 -1 -1;
+#X obj 1038 532 bng 20 250 50 0 empty empty What\ are\ scales? 25 10
+0 10 -262144 -1 -1;
+#X obj 1038 552 bng 20 250 50 0 empty empty What\ are\ chords? 25 10
+0 10 -262144 -1 -1;
+#X obj 1037 42 bng 20 250 50 0 webcamhelp empty Webcam 25 10 0 10 -262144
+-1 -1;
+#X obj 1037 62 bng 20 250 50 0 majorscalehelp empty Majorscale 25 10
+0 10 -262144 -1 -1;
+#X obj 1037 82 bng 20 250 50 0 midikeyboardhelp empty Midikeyboard
+25 10 0 10 -262144 -1 -1;
+#X obj 1144 -17 bng 20 250 50 0 makechordhelp empty Makechord 25 10
+0 10 -262144 -1 -1;
+#X obj 1144 3 bng 20 250 50 0 soundsouthelp empty Soundsout 25 10 0
+10 -262144 -1 -1;
+#X obj 1144 23 bng 20 250 50 0 voicesouthelp empty Voicesout 25 10
+0 10 -262144 -1 -1;
+#X obj 1144 43 bng 20 250 50 0 recordhelp empty Record 25 10 0 10 -262144
+-1 -1;
+#X obj 1144 63 bng 20 250 50 0 presetsavehelp empty Presetsave 25 10
+0 10 -262144 -1 -1;
+#X obj 100 117 conductor 1dash;
+#X obj 369 238 makechord 1dash;
+#X obj 100 238 makechord 2dash;
+#X obj -116 522;
+#X obj -116 544;
+#X obj 643 237 makechord 3dash;
+#X obj 99 370 voicesout 1dash;
+#X obj 976 121 conductor 2dash;
+#X obj 976 241 majorscale 1dash;
+#X obj 976 361 voicesout 2dash;
+#X connect 20 0 22 0;
+#X connect 20 0 25 0;
+#X connect 20 0 21 0;
+#X connect 21 0 26 0;
+#X connect 22 0 26 0;
+#X connect 25 0 26 0;
+#X connect 27 0 28 0;
+#X connect 28 0 29 0;
+#X coords 0 0 1 1 285 212 0;
