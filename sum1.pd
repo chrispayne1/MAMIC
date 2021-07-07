@@ -1,0 +1,123 @@
+#N canvas 0 74 1366 694 10;
+#X obj 1779 313 image /home/ubuntu-studio/MAMIClibrary/images/sum.png
+0;
+#X msg 1446 70 click \$1;
+#X msg 1443 38 1;
+#X obj 1442 7 loadbang;
+#X obj 2046 537 alternate;
+#X obj 2003 275 loadbang;
+#X obj 2003 303 f \$0;
+#X msg 1922 626 \; \$1 vis 1;
+#X obj 1922 572 f;
+#X obj 2098 573 f;
+#X msg 2099 627 \; \$1 vis 0;
+#X text 1660 348 MIDI Output;
+#X obj 1389 336 inlet;
+#X obj 1390 403 outlet;
+#N canvas 0 73 1366 694 statesave 0;
+#X text 218 0 Seq Number 1;
+#X text 502 5 Seq Number 2;
+#X obj 192 -24 r \$0-seq1;
+#X obj 88 32 s \$0-seq1r;
+#X obj 488 -21 r \$0-seq2;
+#X obj 372 37 s \$0-seq2r;
+#X obj 87 1 sssad \$1/seqnumber1;
+#X obj 371 6 sssad \$1/seqnumber2;
+#X connect 2 0 6 1;
+#X connect 4 0 7 1;
+#X connect 6 0 3 0;
+#X connect 7 0 5 0;
+#X restore 1358 494 pd statesave;
+#X obj 1452 336 inlet;
+#X text 1661 258 Seq Input 1;
+#X text 1849 258 Seq Input 2;
+#X msg 1644 44 open /home/ubuntu-studio/MAMIClibrary/images/sum.png
+;
+#N canvas 482 443 267 136 \$0-sum1 0;
+#X obj -9 -308 cnv 15 272 121 empty empty empty 20 12 0 14 -133184
+-66577 0;
+#X obj 83 -268 bng 20 50 50 0 \$0-add empty + 3 9 0 25 -257985 -1 -1
+;
+#X floatatom 218 -250 5 0 0 0 = #0-receiveanswer -, f 5;
+#X obj 83 -241 bng 20 50 50 0 \$0-minus empty - 3 9 0 25 -257985 -1
+-1;
+#X obj 1 -203 bng 10 250 50 0 \$0-clear empty empty 17 7 0 10 -258113
+-1 -1;
+#X text 11 -207 Clear;
+#N canvas 0 74 1366 694 pitch 0;
+#X obj 342 511 s \$0-receiveanswer;
+#X obj 341 381 +;
+#X obj 380 382 -;
+#X obj 312 214 r \$0-seq2;
+#X obj 229 281 f;
+#X obj 322 281 f;
+#X obj 229 246 t b f;
+#X obj 312 244 t b f;
+#X obj 229 214 r \$0-seq1;
+#X obj 336 454 switch 2;
+#X msg 202 401 1;
+#X msg 235 402 2;
+#X obj 67 308 r \$0-add;
+#X obj 138 298 r \$0-minus;
+#X obj 68 341 t b b;
+#X obj 141 339 t b b;
+#X obj 459 513 outlet;
+#X connect 1 0 9 1;
+#X connect 2 0 9 2;
+#X connect 3 0 7 0;
+#X connect 4 0 1 0;
+#X connect 4 0 2 0;
+#X connect 5 0 1 1;
+#X connect 5 0 2 1;
+#X connect 6 0 4 0;
+#X connect 6 1 4 1;
+#X connect 7 0 5 0;
+#X connect 7 1 5 1;
+#X connect 8 0 6 0;
+#X connect 9 0 0 0;
+#X connect 9 0 16 0;
+#X connect 10 0 9 0;
+#X connect 11 0 9 0;
+#X connect 12 0 14 0;
+#X connect 13 0 15 0;
+#X connect 14 0 10 0;
+#X connect 14 1 5 0;
+#X connect 14 1 4 0;
+#X connect 15 0 11 0;
+#X connect 15 1 5 0;
+#X connect 15 1 4 0;
+#X restore 1105 -309 pd pitch engine;
+#X obj 1105 -284 outlet;
+#X obj 1210 -310 inlet;
+#X floatatom -3 -249 5 0 10 2 SeqNumber1 #0-seq1r #0-seq1, f 5;
+#X floatatom 127 -250 5 0 10 2 SeqNumber2 #0-seq2r #0-seq2, f 5
+;
+#X text 12 -305 Sum Year 1;
+#X obj 1209 -284 s \$0-seq1r;
+#X obj 1284 -309 inlet;
+#X obj 1283 -283 s \$0-seq2r;
+#X connect 6 0 7 0;
+#X connect 8 0 12 0;
+#X connect 13 0 14 0;
+#X restore 1391 373 pd \$0-sum1;
+#X obj 1923 600 makefilename pd-%d-sum1;
+#X obj 2099 601 makefilename pd-%d-sum1;
+#X connect 0 0 4 0;
+#X connect 1 0 0 0;
+#X connect 2 0 1 0;
+#X connect 3 0 2 0;
+#X connect 3 0 18 0;
+#X connect 4 0 8 0;
+#X connect 4 1 9 0;
+#X connect 5 0 6 0;
+#X connect 6 0 8 1;
+#X connect 6 0 9 1;
+#X connect 8 0 20 0;
+#X connect 9 0 21 0;
+#X connect 12 0 19 0;
+#X connect 15 0 19 1;
+#X connect 18 0 0 0;
+#X connect 19 0 13 0;
+#X connect 20 0 7 0;
+#X connect 21 0 10 0;
+#X coords 0 -1 1 1 265 114 2 1658 254;

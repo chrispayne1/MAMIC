@@ -1,0 +1,75 @@
+#N canvas 0 37 1366 695 10;
+#X text 42 237 Quick Start;
+#N canvas 0 73 1366 695 engine 0;
+#X text 685 33 load;
+#X obj 718 258 textfile;
+#X obj 718 288 s SSSAD;
+#X obj 718 200 until;
+#X msg 718 179 100;
+#X msg 662 241 print;
+#X text 713 310 also received inside sssad;
+#X obj 786 285 s SSSAD_ADMIN;
+#X msg 786 260 set;
+#X obj 718 156 t b a;
+#X msg 765 201 read \$1 \, rewind;
+#X text 750 179 Avoid loops. A bang normally also works.;
+#X obj 718 133 symbol;
+#X text 672 335 Hint: get creative with the [OSCroute] external!;
+#X obj 730 47 loadbang;
+#X msg 718 82 /home/ubuntu-studio/MAMIClibrary/helpsettings/xboxpadhelp.txt
+;
+#X connect 1 0 2 0;
+#X connect 1 1 3 1;
+#X connect 1 1 8 0;
+#X connect 3 0 1 0;
+#X connect 4 0 3 0;
+#X connect 5 0 1 0;
+#X connect 8 0 7 0;
+#X connect 9 0 4 0;
+#X connect 9 1 10 0;
+#X connect 10 0 1 0;
+#X connect 12 0 9 0;
+#X connect 14 0 15 0;
+#X connect 15 0 12 0;
+#X restore 1286 661 pd engine;
+#X text 120 -6 X B O X P A D O B J E C T;
+#X text 39 341 3 Click on the XBOX pad image on [xboxpad] to reveal
+it's conrol panel4 Click 'Print' this will print what (USB) device
+number your pad is connect to. This will be shown the the Pure-Data
+L20rk Console Window 5 Then on the 'Devices' toggle on [xboxbox]'s
+control panel select the correct defice number as shown in the Pure-Data
+L20rk Console Window;
+#X text 41 272 1 Connect your XBOX 360 USB wired controller to a USB
+port2 Open [xboxpad] and [soundsout] and connect the audio output
+of [xboxpad] to the audio input of [soundsout];
+#X text 38 500 6 Make sure the volumes are turned up on the keys required
+(to play to drum kit example \, (turn up the volume lvels for keys
+AXYB).;
+#X text 37 554 7 Turn up the master volume in [soundsout];
+#X text 37 581 8 Press a button on your XBOX 360 USB wired controller
+and you should now hear the drum kit samples - Kick \, Snare \, Hghhat
+and Crash.;
+#X text 452 59 EXAMPLE below[xboxpad] has the pre-loadd drum kit
+loaded onto the button AXYB.[xboxpad] is plugged into [soundsout]
+so when the buttons AXYB are pressed the samples are triggered which
+are assigned to each button.;
+#X text 42 185 IMPORTANT because [xboxpad] uses audio files/samples
+[soundsout] must be used \, so the sounds can be heard.;
+#X text 42 12 The [xboxpad] object lets you use your XBOX 360 controller
+as a musical instrument. The pad MUST be a wried USB one though. The
+keys AXYB \, LT LB RT RB \, Back. Start and the D pad can each be assigned
+audio samples (audio files). These audio files must be in either WAV
+or AIF formats. Each key also has its own volume control. [xboxpad]
+comes pre loaded with a sample drum kit. Which is spanned over the
+following keys AXYB. This is active when [xboxpad] is loaded.The
+triggers LT and RT \, send out sequence numbers from 0 - 100;
+#X floatatom 754 214 5 0 0 1 SequenceNubersfromXBOXPad - -, f
+5;
+#X obj 459 214 xboxpad 1xboxpadhelp;
+#X obj 460 349 soundsout 1xobxpadhelp;
+#X obj 740 350 majorscale 1xboxpadhelp;
+#X obj 740 482 voicesout 1xboxpadhelp;
+#X connect 11 0 14 0;
+#X connect 12 0 13 0;
+#X connect 12 3 11 0;
+#X connect 14 0 15 0;

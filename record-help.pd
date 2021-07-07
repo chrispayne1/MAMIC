@@ -1,0 +1,90 @@
+#N canvas 0 50 1366 695 10;
+#N canvas 0 73 1366 695 engine 0;
+#X text 685 33 load;
+#X obj 718 258 textfile;
+#X obj 718 288 s SSSAD;
+#X obj 718 200 until;
+#X msg 718 179 100;
+#X msg 662 241 print;
+#X text 713 310 also received inside sssad;
+#X obj 786 285 s SSSAD_ADMIN;
+#X msg 786 260 set;
+#X obj 718 156 t b a;
+#X msg 765 201 read \$1 \, rewind;
+#X text 750 179 Avoid loops. A bang normally also works.;
+#X obj 718 133 symbol;
+#X text 672 335 Hint: get creative with the [OSCroute] external!;
+#X obj 730 47 loadbang;
+#X msg 718 82 /home/ubuntu-studio/MAMIClibrary/helpsettings/recordhelp.txt
+;
+#X connect 1 0 2 0;
+#X connect 1 1 3 1;
+#X connect 1 1 8 0;
+#X connect 3 0 1 0;
+#X connect 4 0 3 0;
+#X connect 5 0 1 0;
+#X connect 8 0 7 0;
+#X connect 9 0 4 0;
+#X connect 9 1 10 0;
+#X connect 10 0 1 0;
+#X connect 12 0 9 0;
+#X connect 14 0 15 0;
+#X connect 15 0 12 0;
+#X restore 1327 660 pd engine;
+#X text 678 -6 EXAMPLE belowIn the example below [conductor] is controlling
+a G Major scale and two chords.Three patterns are used 1 \, 2 and
+3 (look in the pattern editor)Pattern 1 controls [majorscale] by
+sending sequence numbers 1 - 8 these represent each scale degree.Pattern
+2 controls the chord created in the [makechord 1] object. Every time
+the sequence number 16 is sent to [makechord 1] is plays the chord.Pattern
+3 controls the chord corted in the [makechord 2] object. Every time
+the sequence number 12 is sent to [makechord 2] is plays the chord.3
+[voicesout]'s are used to show that you can play multiple [voicesout]
+simultaneously. Eac [voicesout] adopts differing voices and reverb
+settings;
+#X text 127 4 R E C O R D O B J E C T;
+#X text 39 30 The [record] object makes an audio file (WAVE fromat)
+of your overall composition or perfromance and saves it as a wave (WAVE
+file). THis can then be played on any muisc device and even be your
+ringtone.Simply connect the Audio Output Outlets of each [voicesout]
+and/or [soundsout] objects that are in your patch to the [record]'s
+Audio Input.You then need to tell [record] were on your computer
+you wish to sae your WAV file and name it. Then just ned to tell [record]
+how ong in seconds you wish to recod for. Hit the Rec botton to then
+start your recording.;
+#X text 39 213 Quick Start1 Connect all the Audio Output Outlets
+from each [soundsout] and [voicesout] in your patch to [record]'s Audio
+input Inlet2 Click the @Save As...' button on [record]. Choose where
+to save your WAV file and name is. myrecording.wav for example3 CLick
+on the image on [record] to show its contol panel4 Set the number
+of seconds to record in the number box5 When you are ready click
+the @rec' utton and [record] will start recording your patch live.
+;
+#X text 1046 21 [compk] is preloaded with the drum kit and is connectedinto
+[soundsout]. You can play this set up over the topof the sequenced
+[conductor] algorithm.All [soundout's and [voicesout]'s are connect
+into a [record] to enable you to record your whole perfromanceto
+a WAV file.;
+#X obj 406 130 conductor 1recordhelp;
+#X obj 407 298 majorscale 1recordhelp;
+#X floatatom 407 261 5 0 0 1 SequenceNumber - -, f 5;
+#X obj 695 308 makechord 1recordhelp;
+#X obj 979 307 makechord 2helprecord;
+#X obj 416 443 voicesout 1recordhelp;
+#X obj 694 438 voicesout 2recordhelp;
+#X obj 979 434 voicesout 3recordhelp;
+#X obj 135 429 compk 1recordhelp;
+#X obj 124 565 soundsout 1recordhelp;
+#X obj 414 574 record 1recordhelp;
+#X connect 6 0 8 0;
+#X connect 7 0 11 0;
+#X connect 8 0 7 0;
+#X connect 8 0 9 0;
+#X connect 8 0 10 0;
+#X connect 9 0 12 0;
+#X connect 10 0 13 0;
+#X connect 11 0 16 0;
+#X connect 12 0 16 0;
+#X connect 13 0 16 0;
+#X connect 14 0 15 0;
+#X connect 15 0 16 0;
