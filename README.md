@@ -37,7 +37,7 @@ Install Synaptic Package Manager
 sudo apt-get update
 sudo apt-get install synaptic
 
-Terminal
+Then install the Pd-L2Ork IDE
 
 sudo add-apt-repository ppa:dr-graef/pd-l2ork.xenial
 sudo apt-get update
@@ -45,7 +45,7 @@ sudo apt-get update
 sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
 sudo apt-get update
 
-Install with Synaptic Package Manager
+Install Pd-L2Ork IDE and the other packages below with Synaptic Package Manager
 
 Pd-L20rk
 VLC Player
