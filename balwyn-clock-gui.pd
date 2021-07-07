@@ -1,0 +1,8 @@
+#N struct 1032-radial-template float c float w float x float y float
+xx float yy;
+#N struct 1037-radial-template float c float w float x float y float
+xx float yy;
+#N struct 1041-radial-template float c float w float x float y float
+xx float yy;
+#N canvas 622 290 429 426 10;
+#X obj 0 -1 balwyn-clock;
