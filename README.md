@@ -28,11 +28,32 @@ THe MAMIC topology model below gives an insight into how the MAMIC abtractions a
 
 <h2>How to Use this MAMIC Library</h2>
 
-Firstly, I recommend you work with MAMIC on Ubuntu-Studio and install the Pd-L2Ork IDE through the ppa here https://launchpad.net/~dr-graef/+archive/ubuntu/pd-l2ork.trusty
+Firstly, I recommend you work with MAMIC on Ubuntu-Studio 16.04 and install the Pd-L2Ork IDE through these terminal commands:
+
+TO build the MAMIC System on Ubuntu Studio 16.04
+
+Install Synaptic Package Manager
+
+sudo apt-get update
+sudo apt-get install synaptic
+
+Terminal
+
+sudo add-apt-repository ppa:dr-graef/pd-l2ork.xenial
+sudo apt-get update
+
+sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
+sudo apt-get update
+
+Install with Synaptic Package Manager
+
+Pd-L20rk
+VLC Player
+Simple Screen Recorder
 
 Next take the contents of this Git MAMICLibrary and navigate to this folder in Pd-L2Ork as a library path. 
 
-Please then feel free start using the MAMIC abstractions.
+Please then feel free start using and changing the MAMIC abstractions.
 
 Please feel free to add to this project and contribute :) 
 
