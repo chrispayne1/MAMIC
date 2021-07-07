@@ -1,0 +1,12 @@
+#N struct 1505-radial-template float c float w float x float y float
+xx float yy;
+#N struct 1508-radial-template float c float w float x float y float
+xx float yy;
+#N struct 1511-radial-template float c float w float x float y float
+xx float yy;
+#N canvas 0 74 1366 694 10;
+#X obj 1065 60 opensave;
+#X obj 1001 592 voicesout1 2;
+#X obj 503 -34 clock1;
+#X obj -31 559;
+#X connect 2 2 1 0;

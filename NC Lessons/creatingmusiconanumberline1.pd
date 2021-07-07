@@ -1,0 +1,7 @@
+#N canvas 0 74 1366 694 10;
+#X obj 15 12 opensave;
+#X obj 547 164 majorscale 1;
+#X obj 547 291 voicesout 1;
+#X obj 547 39 conductor 1;
+#X connect 1 0 2 0;
+#X connect 3 0 1 0;

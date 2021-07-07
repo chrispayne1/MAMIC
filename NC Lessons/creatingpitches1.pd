@@ -1,0 +1,5 @@
+#N canvas 0 25 1366 694 10;
+#X obj 1163 296 singlepitch1 1;
+#X obj 803 303 opensave;
+#X obj 1163 436 voicesout 1;
+#X connect 0 0 2 0;

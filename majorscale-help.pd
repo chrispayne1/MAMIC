@@ -1,0 +1,69 @@
+#N canvas 0 73 1366 695 10;
+#N canvas 0 73 1366 695 engine 0;
+#X text 685 33 load;
+#X obj 718 258 textfile;
+#X obj 718 288 s SSSAD;
+#X obj 718 200 until;
+#X msg 718 179 100;
+#X msg 662 241 print;
+#X text 713 310 also received inside sssad;
+#X obj 786 285 s SSSAD_ADMIN;
+#X msg 786 260 set;
+#X obj 718 156 t b a;
+#X msg 765 201 read \$1 \, rewind;
+#X text 750 179 Avoid loops. A bang normally also works.;
+#X obj 718 133 symbol;
+#X text 672 335 Hint: get creative with the [OSCroute] external!;
+#X obj 730 47 loadbang;
+#X msg 718 82 /home/ubuntu-studio/MAMIClibrary/helpsettings/majorscalehelp.txt
+;
+#X connect 1 0 2 0;
+#X connect 1 1 3 1;
+#X connect 1 1 8 0;
+#X connect 3 0 1 0;
+#X connect 4 0 3 0;
+#X connect 5 0 1 0;
+#X connect 8 0 7 0;
+#X connect 9 0 4 0;
+#X connect 9 1 10 0;
+#X connect 10 0 1 0;
+#X connect 12 0 9 0;
+#X connect 14 0 15 0;
+#X connect 15 0 12 0;
+#X restore 1039 650 pd engine;
+#X floatatom 668 322 5 0 0 1 SequenceNumber - -, f 5;
+#X text 127 4 M A J O R S C A L E O B J E C T;
+#X text 41 165 To use the notes from a scale you wish \, you just need
+to supply the number position of the note in the scale. Eg to get note
+F in the C major scale \, just put the number 4 in a number box since
+F is the fourth note in the C Major scale.;
+#X text 40 40 The scale objects include [majorscale] and [minorscale]
+amounst others. When using these objects you can access the notes from
+the scale that they work with.;
+#X text 41 84 The scale objects work by displaying the scales in eight
+scale degree channels 1 - 8 The number boxes at the top of the channel
+are the numbered positions of notes in a scale. The number you put
+in here determines the note that you will use in the scale. (which
+are displayed in the scale degree number boxes below).;
+#X text 43 234 Quick Start;
+#X text 43 394 NOTE Scale objects also come with their own patern sequencer.
+Here you can compose another new rhythm to control other objects by
+using the Seq Output.;
+#X text 44 258 1 Select a scale to work in;
+#X text 43 291 2 Use the number boxes to input numbers to select the
+desired notes for your scale.;
+#X text 43 333 3 Connect a control object like [conductor] \, [midikeyboard]
+or [compk] to send sequence numbers (1-8) to the scale object's input.
+This will then play the scale degree channels.;
+#X text 661 -2 EXAMPLE belowIn the example below [conductor] is controlling
+a G Major scale and a chord.One pattern is used (look in the pattern
+editor)Pattern 1 controls [majorscale] by sending sequence numbers
+1 - 8 these represent each scale degree.The [majorscale] object is
+set to G Major scale and plays through the scale using notes 1 \, 2
+\, 3 \, 4 \, 5 \, 6 \, 7 \, 8.;
+#X obj 666 183 conductor 1majorscalehelp;
+#X obj 666 360 majorscale 1majorscalehelp;
+#X obj 667 494 voicesout 1majorscalehelp;
+#X connect 1 0 13 0;
+#X connect 12 0 1 0;
+#X connect 13 0 14 0;

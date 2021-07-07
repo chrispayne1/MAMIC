@@ -1,0 +1,68 @@
+#N canvas 0 55 1366 695 10;
+#N canvas 0 73 1366 695 engine 0;
+#X text 685 33 load;
+#X obj 718 258 textfile;
+#X obj 718 288 s SSSAD;
+#X obj 718 200 until;
+#X msg 718 179 100;
+#X msg 662 241 print;
+#X text 713 310 also received inside sssad;
+#X obj 786 285 s SSSAD_ADMIN;
+#X msg 786 260 set;
+#X obj 718 156 t b a;
+#X msg 765 201 read \$1 \, rewind;
+#X text 750 179 Avoid loops. A bang normally also works.;
+#X obj 718 133 symbol;
+#X text 672 335 Hint: get creative with the [OSCroute] external!;
+#X obj 730 47 loadbang;
+#X msg 718 82 /home/ubuntu-studio/MAMIClibrary/helpsettings/makechordhelp.txt
+;
+#X connect 1 0 2 0;
+#X connect 1 1 3 1;
+#X connect 1 1 8 0;
+#X connect 3 0 1 0;
+#X connect 4 0 3 0;
+#X connect 5 0 1 0;
+#X connect 8 0 7 0;
+#X connect 9 0 4 0;
+#X connect 9 1 10 0;
+#X connect 10 0 1 0;
+#X connect 12 0 9 0;
+#X connect 14 0 15 0;
+#X connect 15 0 12 0;
+#X restore 1391 688 pd engine;
+#X floatatom 586 374 5 0 0 1 SequenceNumber - -, f 5;
+#X text 102 308 Quick Start;
+#X text 178 72 M A K E C H O R D O B J E C T;
+#X text 104 401 2 Select your scale type to build a chord from;
+#X text 104 422 3 Select your scale degrees to build your chord (black
+squares).;
+#X text 103 513 NOTE If you wish you can test your chord now by pressing
+the 'test' button.;
+#X text 100 90 The [makechord] object lets you make up your own chord
+(of a maximum of 3 notes) \, from the current scale you wish to use
+(Major Minor Penatonic). [makechord] will play when it recieves a
+sequence number from another object that you have set to control [makechord]
+(for example [conductor]). You will need to tell make chord what the
+desired sequence number by putting this number in the 'Seq' number
+box. From there you can select the scale type to build your chord from
+and choose the scale degrees to 'make' your new chord.;
+#X text 95 258 [makechord] automatically gets its musical key from
+the [conductor] object.;
+#X text 103 335 1 Set the sequence number to play your chord in the
+'Seq' number box. When [makechord] receives this number from another
+control object like [conductor] \, [makechord] will then play your
+chord.;
+#X text 105 462 4 Connect [makechord] to a controlling object like
+[conductor] and then send [makechord] the sequencing number to play
+your chord !;
+#X text 586 90 EXAMPLE belowConductor has one pattern which sends
+out the sequence number 1 [makechord] has been set to play when it
+receives the sequence number 1.[makechord]'s sequence output is sent
+to [voicesout] so the chord can be heard;
+#X obj 587 238 conductor 1makechordhelp;
+#X obj 585 412 makechord 1makechordhelp;
+#X obj 586 563 voicesout 1makechordhelp;
+#X connect 1 0 13 0;
+#X connect 12 0 1 0;
+#X connect 13 0 14 0;
