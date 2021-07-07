@@ -1,0 +1,8 @@
+1webcamhelp/reverbtypesoundsout 0;
+1webcamhelp/volumeslidersoundsout 1;
+1webcamhelp/Sensitivity 5;
+1webcamhelp/fps 20;
+1webcamhelp/slider4 1.3;
+1webcamhelp/slider3 1.3;
+1webcamhelp/slider2 1.3;
+1webcamhelp/slider1 1.3;

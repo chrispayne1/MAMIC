@@ -1,0 +1,22 @@
+<!DOCTYPE patchbay>
+<patchbay name="jackpatchbay" version="0.4.2">
+ <output-sockets>
+  <socket type="alsa-midi" client="USB Oxygen 49" name="USB Oxygen 1" exclusive="off">
+   <plug>USB Oxygen 49 MIDI 1</plug>
+  </socket>
+  <socket type="alsa-midi" client="USB Keystation 49e" name="USB Keystation 49e 1" exclusive="off">
+   <plug>USB Keystation 49e MIDI 1</plug>
+  </socket>
+ </output-sockets>
+ <input-sockets>
+  <socket type="alsa-midi" client="Pure Data" name="Pure Data 1" exclusive="off">
+   <plug>Pure Data Midi-In 1</plug>
+  </socket>
+ </input-sockets>
+ <slots/>
+ <cables>
+  <cable type="alsa-midi" input="Pure Data 1" output="USB Oxygen 1"/>
+  <cable type="alsa-midi" input="Pure Data 1" output="USB Keystation 49e 1"/>
+ </cables>
+</patchbay>
+

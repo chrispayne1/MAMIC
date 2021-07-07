@@ -1,0 +1,22 @@
+#N canvas 1 76 1351 688 10;
+#X obj 4 218 int;
+#X obj 402 69 cnv 15 296 260 empty empty empty 20 12 0 14 -191407 -66577
+0;
+#X obj 438 82 grid grid2 220 -16 16 220 -16 16 1 2 2 2 2 509 119;
+#X floatatom 504 308 5 0 0 0 - - -, f 5;
+#X obj 971 238 int;
+#X floatatom 562 308 5 0 0 0 - - -, f 5;
+#X text 513 320 X;
+#X text 572 320 Y;
+#X text 475 335 Output X;
+#X text 553 334 Output Y;
+#X text 449 66 Gesture;
+#X obj 503 371 outlet;
+#X obj 562 371 outlet;
+#X connect 0 0 3 0;
+#X connect 2 0 0 0;
+#X connect 2 1 4 0;
+#X connect 3 0 11 0;
+#X connect 4 0 5 0;
+#X connect 5 0 12 0;
+#X coords 0 -1 1 1 309 271 1 396 62;

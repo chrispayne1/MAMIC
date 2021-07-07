@@ -1,0 +1,38 @@
+#N canvas 0 0 1366 686 10;
+#X obj 3 3 cnv 15 120 50 empty empty empty 20 12 0 14 -260097 -66577
+0;
+#X floatatom 45 14 3 0 16 0 - #0-greaterthanclear #0-greaterthan;
+#X text 2 0 Input;
+#X text 3 33 Output;
+#X obj 0 284 outlet;
+#X obj 102 36 bng 15 250 50 0 \$0-clear empty empty 17 7 0 10 -262144
+-1 -1;
+#X floatatom 45 34 3 0 16 0 - #0-numberclear #0-number;
+#X floatatom -251 730 5 0 0 0 - - -;
+#X obj -250 704 counter 0 2;
+#X obj -251 751 t f f f;
+#X text 66 34 Clear;
+#X obj 0 137 inlet;
+#X obj 0 250 f;
+#X obj 15 227 r \$0-number;
+#X obj 0 204 sel 1;
+#X obj 144 137 r \$0-clear;
+#X msg 144 163 0;
+#X obj 144 193 s \$0-greaterthanclear;
+#X obj 280 194 s \$0-numberclear;
+#X text 20 12 <;
+#X obj 0 178 <;
+#X obj 37 137 r \$0-greaterthan;
+#X text 64 0 LESS THAN;
+#X connect 7 0 9 0;
+#X connect 8 0 7 0;
+#X connect 11 0 20 0;
+#X connect 12 0 4 0;
+#X connect 13 0 12 1;
+#X connect 14 0 12 0;
+#X connect 15 0 16 0;
+#X connect 16 0 17 0;
+#X connect 16 0 18 0;
+#X connect 20 0 14 0;
+#X connect 21 0 20 1;
+#X coords 0 -1 1 1 125 55 1 0 0;

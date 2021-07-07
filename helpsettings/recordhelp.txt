@@ -1,0 +1,79 @@
+1recordhelp/reverbtypesoundsout 0;
+1recordhelp/volumeslidersoundsout 0.674945;
+1recordhelp/keyboardonoff 1;
+1recordhelp/fkey 1.3;
+1recordhelp/dkey 1.3;
+1recordhelp/skey 1.3;
+1recordhelp/akey 1.3;
+3recordhelp/voiceselect 5;
+3recordhelp/sustain 14;
+3recordhelp/length 98;
+3recordhelp/reverb 4;
+3recordhelp/volumeslider 0.393878;
+2recordhelp/voiceselect 2;
+2recordhelp/sustain 28;
+2recordhelp/length 94;
+2recordhelp/reverb 2;
+2recordhelp/volumeslider 0.373673;
+1recordhelp/voiceselect 1;
+1recordhelp/reverb 0;
+1recordhelp/volumeslider 0.353469;
+2helprecord/scalename 1;
+2helprecord/chordpitch3 4;
+2helprecord/chordpitch2 1;
+2helprecord/chordpitch1 0;
+2helprecord/seqnumber 12;
+1recordhelp/scalename 1;
+1recordhelp/chordpitch3 4;
+1recordhelp/chordpitch2 2;
+1recordhelp/chordpitch1 0;
+1recordhelp/seqnumber 16;
+1recordhelp/majorscaleseqencer 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0;
+1recordhelp/scalerootnote 67;
+1recordhelp/scalenote8 8;
+1recordhelp/scalenote7 7;
+1recordhelp/scalenote6 6;
+1recordhelp/scalenote5 5;
+1recordhelp/scalenote4 4;
+1recordhelp/scalenote3 3;
+1recordhelp/scalenote2 2;
+1recordhelp/scalenote1 1;
+1recordhelp/dsdata 1 2 3 4 5 6 7 8 1 2 3 4 5 6 7 8 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 16 0 16 0 16 0 16 0 16 0 16 0 16 0 16 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 12 0 12 12 0 12 0 12 12 0 12 0 12 12 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+1recordhelp/patterntable 1 2 3 1 2 3 1 2 3 1 2 3 1 2 3 1 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+1recordhelp/loadbangplaysolo 1;
+1recordhelp/notevalue 2;
+1recordhelp/bpm 100;
+1recordhelp/sendrootnote 67;
+1recordhelp/normalpen 0;
+1recordhelp/melody1onoff 1;

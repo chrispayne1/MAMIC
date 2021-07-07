@@ -1,0 +1,13 @@
+2soundsouthelp/reverbtypesoundsout 0;
+2soundsouthelp/volumeslidersoundsout 1;
+1soundsouthelp/vol4 1.3;
+1soundsouthelp/vol3 1.3;
+1soundsouthelp/vol2 1.3;
+1soundsouthelp/vol1 1.3;
+1soundsouthelp/reverbtypesoundsout 0;
+1soundsouthelp/volumeslidersoundsout 1;
+1soundsouthelp/keyboardonoff 1;
+1soundsouthelp/fkey 1.3;
+1soundsouthelp/dkey 1.3;
+1soundsouthelp/skey 1.3;
+1soundsouthelp/akey 1.3;

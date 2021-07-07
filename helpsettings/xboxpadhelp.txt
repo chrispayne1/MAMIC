@@ -1,0 +1,24 @@
+1xboxpadhelp/voiceselect 1;
+1xboxpadhelp/reverb 0;
+1xboxpadhelp/volumeslider 0.434286;
+1xboxpadhelp/majorscaleseqencer 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0;
+1xboxpadhelp/scalerootnote 60;
+1xboxpadhelp/scalenote8 8;
+1xboxpadhelp/scalenote7 7;
+1xboxpadhelp/scalenote6 6;
+1xboxpadhelp/scalenote5 5;
+1xboxpadhelp/scalenote4 4;
+1xboxpadhelp/scalenote3 3;
+1xboxpadhelp/scalenote2 2;
+1xboxpadhelp/scalenote1 1;
+1xobxpadhelp/reverbtypesoundsout 0;
+1xobxpadhelp/volumeslidersoundsout 1;
+1xboxpadhelp/seq4 1;
+1xboxpadhelp/seq3 2;
+1xboxpadhelp/seq2 3;
+1xboxpadhelp/seq1 4;
+1xboxpadhelp/vol4 1.3;
+1xboxpadhelp/vol3 1.3;
+1xboxpadhelp/vol2 1.3;
+1xboxpadhelp/vol1 1.3;

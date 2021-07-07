@@ -1,0 +1,72 @@
+3voicesouthelp/voiceselect 5;
+3voicesouthelp/sustain 14;
+3voicesouthelp/length 98;
+3voicesouthelp/reverb 4;
+3voicesouthelp/volumeslider 0.313061;
+2voicesouthelp/voiceselect 2;
+2voicesouthelp/sustain 28;
+2voicesouthelp/length 94;
+2voicesouthelp/reverb 2;
+2voicesouthelp/volumeslider 0.45449;
+1voicesouthelp/voiceselect 1;
+1voicesouthelp/reverb 0;
+1voicesouthelp/volumeslider 0.424184;
+2voicesouthelp/scalename 1;
+2voicesouthelp/chordpitch3 4;
+2voicesouthelp/chordpitch2 1;
+2voicesouthelp/chordpitch1 0;
+2voicesouthelp/seqnumber 12;
+1voicesouthelp/scalename 1;
+1voicesouthelp/chordpitch3 4;
+1voicesouthelp/chordpitch2 2;
+1voicesouthelp/chordpitch1 0;
+1voicesouthelp/seqnumber 16;
+1voicesouthelp/majorscaleseqencer 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0;
+1voicesouthelp/scalerootnote 67;
+1voicesouthelp/scalenote8 8;
+1voicesouthelp/scalenote7 7;
+1voicesouthelp/scalenote6 6;
+1voicesouthelp/scalenote5 5;
+1voicesouthelp/scalenote4 4;
+1voicesouthelp/scalenote3 3;
+1voicesouthelp/scalenote2 2;
+1voicesouthelp/scalenote1 1;
+1voicesouthelp/dsdata 1 2 3 4 5 6 7 8 1 2 3 4 5 6 7 8 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 16 0 16 0 16 0 16 0 16 0 16 0 16 0 16 16 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 12 0 12 12 0 12 0 12 12 0 12 0 12 12 0 12 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+1voicesouthelp/patterntable 1 2 3 1 2 3 1 2 3 1 2 3 1 2 3 1 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+1voicesouthelp/loadbangplaysolo 1;
+1voicesouthelp/notevalue 2;
+1voicesouthelp/bpm 100;
+1voicesouthelp/sendrootnote 67;
+1voicesouthelp/normalpen 0;
+1voicesouthelp/melody1onoff 1;

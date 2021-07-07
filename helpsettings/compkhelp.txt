@@ -1,0 +1,7 @@
+1helpcompk/reverbtypesoundsout 0;
+1helpcompk/volumeslidersoundsout 0.570292;
+1help/keyboardonoff 1;
+1help/fkey 1.3;
+1help/dkey 1.3;
+1help/skey 1.3;
+1help/akey 1.3;
