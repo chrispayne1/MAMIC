@@ -80,7 +80,7 @@ Below is a tbale containing some video examples of how to use the MAMIC library.
     <td>NC-Focused Worksheet Algorithm Example – Creating Pitches with Numbers</td>
   </tr>
   <tr>
-    <td></td>
+    <td>https://youtu.be/R4MufyuJhoE</td>
     <td>NC-Focused Worksheet Algorithm Example – Dates and Chords</td>
   </tr>
 </tbody>
