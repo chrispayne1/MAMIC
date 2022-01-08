@@ -76,7 +76,7 @@ Below is a tbale containing some video examples of how to use the MAMIC library.
     <td>MAMIC Score Demonstration</td>
   </tr>
   <tr>
-    <td></td>
+    <td>https://youtu.be/sKv4jOWzh18</td>
     <td>NC-Focused Worksheet Algorithm Example – Creating Pitches with Numbers</td>
   </tr>
   <tr>
