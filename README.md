@@ -1,4 +1,4 @@
-# MAMIC
+# MAMIC - Music and Maths in Collaboration
 Hello and welcome to the MAMIC Git
 
 
