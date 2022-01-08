@@ -2,7 +2,7 @@
 Hello and welcome to the MAMIC Git
 
 
-MAMIC is a collation of Pure Data library abstractions and thus a visual programming library for the Pd-L2Ork IDE, specifically designed to give primary school students the chance to create music through maths and visual programming. This is achieved by MAMIC's use of the the UK's National Ciruiculum statutory requirements for music, maths and computing at Key Stage One. Thus, allowing students to create MAMIC patches, which can be thought of as collections of interconnected abstractions that converge to make a MAMIC program.
+MAMIC is a collation of Pure Data library abstractions and thus a visual programming library for the Pd-L2Ork IDE, specifically designed to give primary school students the chance to create music through maths and visual programming. This is achieved by MAMIC's use of the the UK's National Curriculum (NC) statutory requirements for music, maths and computing at Key Stage (KS) One. Thus, allowing students to create MAMIC patches, which can be thought of as collections of interconnected abstractions that converge to make a MAMIC program (patch).
  
 
 MAMIC aims to take advantage of music’s learning transfer qualities to teach maths and computing through a visual programming environment that is based on NC statutory requirements and Music Learning Transfer Content (MLTC) principle skills. Therefore, MAMIC contains certain visual programming attributes and resourcing structures that can potentially (through the aid of lesson planning) refocus music as required in both mathematical and computing terms to, in turn, take advantage of its interdisciplinary vehicle qualities.
@@ -40,15 +40,20 @@ MAMIC uses the Ubuntu Studio 16.04 LTS operating system and is fully portable th
 
 
 
-THe MAMIC topology model below gives an insight into how the MAMIC abtractions are ordered 
+The MAMIC topology model below gives an insight into how the MAMIC abtractions are ordered 
 
 ![image](https://user-images.githubusercontent.com/10425370/124646844-15a7b700-de8d-11eb-8e79-64df91a99b0f.png)
 
 
 
 
+The MAMIC library adopts the MLTC principle skill the sequence number as the primary mechanism for programming/controlling all MAMIC abstractions.The MLTC principle skill the sequence number has two forms – command variables and music variables. Music variables are integers that control direct musical processes like scale degrees, musical pitches, or chord voicings. Command variables are integers that allow other MAMIC abstractions to be triggered in isolation or in sequence, appropriate to the MAMIC patch in question. 
+
+MAMIC uses NC-focused worksheet algorithms to ensure interdisciplinary use of the NC statutory requirements of music, maths and compting at KS One. 
+
+
 <h2>Code Examples from the MAMIC Library</h2>
-Below is a tbale containing some video examples of how to use the MAMIC library.
+Below is a table containing some video examples of how to use the MAMIC library.
 <br>
 <br>
 <table>
