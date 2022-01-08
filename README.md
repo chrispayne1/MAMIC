@@ -23,10 +23,47 @@ THe MAMIC topology model below gives an insight into how the MAMIC abtractions a
 
 
 
+<h2>Code Examples from the MAMIC Library</h2>
+Below is a tbale containing some video examples of how to use the MAMIC library.
+
+<table>
+<thead>
+  <tr>
+    <th>Video URL</th>
+    <th>Video Description</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td></td>
+    <td>Compk example showing.....</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Compk example showing.....</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+</tbody>
+</table>
 
 
 
-<h2>How to Use this MAMIC Library</h2>
+
+
+
+
+<h2>How to Install this MAMIC Library</h2>
 
 Firstly, I recommend you work with MAMIC on Ubuntu-Studio 16.04 and install the Pd-L2Ork IDE through these terminal commands:
 
