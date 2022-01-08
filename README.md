@@ -49,7 +49,8 @@ THe MAMIC topology model below gives an insight into how the MAMIC abtractions a
 
 <h2>Code Examples from the MAMIC Library</h2>
 Below is a tbale containing some video examples of how to use the MAMIC library.
-
+<br>
+<br>
 <table>
 <thead>
   <tr>
@@ -68,11 +69,11 @@ Below is a tbale containing some video examples of how to use the MAMIC library.
   </tr>
   <tr>
     <td></td>
-    <td></td>
+    <td>MLTC Sequence Number Command Variable, MAMIC Shape & Music as an Interdisciplinary Vehicle</td>
   </tr>
   <tr>
     <td></td>
-    <td></td>
+    <td>MAMIC Score Demonstration</td>
   </tr>
   <tr>
     <td></td>
