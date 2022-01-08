@@ -60,12 +60,12 @@ Below is a tbale containing some video examples of how to use the MAMIC library.
 </thead>
 <tbody>
   <tr>
-    <td></td>
-    <td>Compk example showing.....</td>
+    <td>https://youtu.be/0wkOQFS14pg</td>
+    <td>[compk] Abstraction Example showing Audio File Playback.</td>
   </tr>
   <tr>
-    <td></td>
-    <td>Compk example showing.....</td>
+    <td>https://youtu.be/ghVLSvAG5Gs</td>
+    <td>[xboxpad] Example Demonstrating Audio Playback and Sequence Number Implementation </td>
   </tr>
   <tr>
     <td></td>
