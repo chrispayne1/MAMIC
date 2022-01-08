@@ -68,7 +68,7 @@ Below is a tbale containing some video examples of how to use the MAMIC library.
     <td>[xboxpad] Example Demonstrating Audio Playback and Sequence Number Implementation </td>
   </tr>
   <tr>
-    <td></td>
+    <td>https://youtu.be/FxpaQlKVOBE</td>
     <td>The MLTC Sequence Number Command Variable, MAMIC Shape & Music as an Interdisciplinary Vehicle</td>
   </tr>
   <tr>
