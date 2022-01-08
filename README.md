@@ -69,7 +69,7 @@ Below is a tbale containing some video examples of how to use the MAMIC library.
   </tr>
   <tr>
     <td></td>
-    <td>MLTC Sequence Number Command Variable, MAMIC Shape & Music as an Interdisciplinary Vehicle</td>
+    <td>The MLTC Sequence Number Command Variable, MAMIC Shape & Music as an Interdisciplinary Vehicle</td>
   </tr>
   <tr>
     <td></td>
@@ -77,7 +77,11 @@ Below is a tbale containing some video examples of how to use the MAMIC library.
   </tr>
   <tr>
     <td></td>
+    <td>NC-Focused Worksheet Algorithm Example – Creating Pitches with Numbers</td>
+  </tr>
+  <tr>
     <td></td>
+    <td>NC-Focused Worksheet Algorithm Example – Dates and Chords</td>
   </tr>
 </tbody>
 </table>
