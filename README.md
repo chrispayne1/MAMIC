@@ -51,7 +51,7 @@ The MAMIC library adopts the MLTC principle skill the sequence number as the pri
 
 MAMIC uses NC-focused worksheet algorithms to ensure interdisciplinary use of the NC statutory requirements of music, maths and compting at KS One. 
 
-<a href="https://https://drive.google.com/drive/folders/1KcIjMN5u85In-vIHUJehjXpnd6sEqAb_?usp=sharing">MAMIC Presentation Introduction</a>
+<a href="https://drive.google.com/drive/folders/1KcIjMN5u85In-vIHUJehjXpnd6sEqAb_?usp=sharing">MAMIC Presentation Introduction</a>
 
 <h2>Code Examples from the MAMIC Library</h2>
 Below is a table containing some video examples of how to use the MAMIC library.
