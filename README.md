@@ -96,11 +96,15 @@ Below is a table containing some video examples of how to use the MAMIC library.
 
 ● The MAMIC Operations Manual
 <br>
+<br>
 ● Student NC-focused Interdisciplinary Worksheets
+<br>
 <br>
 ● MAMIC Information Sheets
 <br>
+<br>
 ● DI Student Worksheets - Differentiated Tasks
+<br>
 <br>
 
  
