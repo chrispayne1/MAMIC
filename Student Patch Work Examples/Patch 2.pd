@@ -1,0 +1,10 @@
+#N canvas 0 25 1366 694 10;
+#X obj 97 35 midikeyboard;
+#X obj 461 295 voicesout;
+#X obj 833 4 conductor;
+#X obj 977 181 makechord;
+#X obj 977 300;
+#X obj 58 -35 webcam;
+#X connect 0 0 1 0;
+#X connect 2 0 3 0;
+#X connect 3 0 1 0;

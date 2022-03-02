@@ -1,0 +1,12 @@
+#N canvas 0 25 1366 694 10;
+#X obj 1047 90 opensave;
+#X obj 197 70 conductor 1;
+#X obj 184 246 makechord 1;
+#X obj 181 438 voicesout;
+#X obj 521 257 makechord 2;
+#X obj 672 71 webcam 1;
+#X connect 1 0 2 0;
+#X connect 1 0 4 0;
+#X connect 2 0 3 0;
+#X connect 4 0 3 0;
+#X connect 5 1 2 0;
