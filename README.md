@@ -91,8 +91,10 @@ Below is a table containing some video examples of how to use the MAMIC library.
   </tr>
 </tbody>
 </table>
-
-<p>Further MAMIC resources can be found in the link below. These include:</p>
+<br>
+<br>
+<p>Further MAMIC resources can be found <a href="https://drive.google.com/drive/folders/10YK8cYSjPG9dq7qrXabGDg1yLgssHpFE?usp=sharing">here</a>
+These include:</p>
 
 ● The MAMIC Operations Manual
 <br>
