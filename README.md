@@ -42,7 +42,8 @@ MAMIC uses the Ubuntu Studio 16.04 LTS operating system and is fully portable th
 
 The MAMIC topology model below gives an insight into how the MAMIC abtractions are ordered 
 
-![image](https://user-images.githubusercontent.com/10425370/124646844-15a7b700-de8d-11eb-8e79-64df91a99b0f.png)
+![mamiciteration3](https://user-images.githubusercontent.com/10425370/156435572-22abf2ad-57b6-414a-acf3-4941950c8443.png)
+
 
 
 
