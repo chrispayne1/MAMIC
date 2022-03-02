@@ -94,10 +94,10 @@ Below is a table containing some video examples of how to use the MAMIC library.
 
 <p>Further MAMIC resources can be found in the link below. These include:</p>
 
-<li>● The MAMIC Operations Manual</li>
-<li>● Student NC-focused Interdisciplinary Worksheets</li>
-<li>● MAMIC Information Sheets</li>
-<li>● DI Student Worksheets - Differentiated Tasks</li>
+● The MAMIC Operations Manual
+● Student NC-focused Interdisciplinary Worksheets
+● MAMIC Information Sheets
+● DI Student Worksheets - Differentiated Tasks
 
  
 
