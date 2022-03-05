@@ -103,7 +103,7 @@ These include:</p>
 ● Student NC-focused Interdisciplinary Worksheets
 <br>
 <br>
-● MAMIC Information Sheets
+● MAMIC Helpsheets
 <br>
 <br>
 ● DI Student Worksheets - Differentiated Tasks
