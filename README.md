@@ -51,11 +51,11 @@ The MAMIC topology model below gives an insight into how the MAMIC abtractions a
 The MAMIC library adopts the MLTC principle skill the sequence number as the primary mechanism for programming/controlling all MAMIC abstractions. The MLTC principle skill the sequence number has two forms – command variables and music variables. Music variables are integers that control direct musical processes like scale degrees, musical pitches, or chord voicings. Command variables are integers that allow other MAMIC abstractions to be triggered in isolation or in sequence, appropriate to the MAMIC patch in question. 
 
 MAMIC uses NC-focused worksheet algorithms to ensure interdisciplinary use of the NC statutory requirements of music, maths and compting at KS One. 
-<h2>MAMIC Presentation Introduction</h2>
+<h2>MAMIC Introduction Presentation </h2>
 <p> Please click on the hyperlink below to download the MAMIC Presentation Introduction. This presentation includes videos on each slide. These videos aim to explain the MAMIC USB system and library in more detail.</p>
-<a href="https://drive.google.com/drive/folders/1KcIjMN5u85In-vIHUJehjXpnd6sEqAb_?usp=sharing">MAMIC Presentation Introduction</a>
+<a href="https://drive.google.com/drive/folders/1KcIjMN5u85In-vIHUJehjXpnd6sEqAb_?usp=sharing">MAMIC Introduction Presentation</a>
 
-<h2>Code Examples from the MAMIC Library</h2>
+<h2>Video Code Examples from the MAMIC Library</h2>
 Below is a table containing some video examples of how to use the MAMIC library.
 <br>
 <br>
